@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="login.component.scss">
+    <script src="https://kit.fontawesome.com/62e031fa2c.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <section>
+        <mat-card class="login-box">
+            <form action>
+                <h1 id="title">Login</h1>
+                    <!-- <div class="input-field" id="nameField">
+                      <input placeholder="Name">
+                    </div> -->
+    
+                    <div class="input-field">
+                        <input placeholder="Email">
+                    </div>
+                
+                    <div class="input-field">
+                        <input type= "password" required placeholder="Password">
+                    </div>
+                    
+                    <div class="remember-forgot">
+                        <!-- <label><input type="checkbox"> Remember Me</label> -->
+                        <p>Forgot password? <span><a href="#">Click here!</a></span></p>
+                    </div>
+                    <button type="submit">Login</button>
+                    <div class="register-link">
+                        <p>Don't have an account? <span><a href="#">Register</a></span></p>
+                    </div>
+                
+                
+            </form>
+
+            <!-- <div class="btn-field">
+                <button type="button" id="signupBtn">Sign up</button>
+                <button type="button" id="signinBtn" class="disable">Sign in</button>
+            </div> -->
+        </mat-card>
+    </section>
+  
+
+ 
+   <!-- The script is supposed to disable the field when you click on sign in or sign up and show the title for each. PS: It's not working!!!! -->
+<!-- <script>
+
+let signupBtn = document.getElementById("signupBtn");
+let signinBtn = document.getElementById("signinBtn");
+let nameField = document.getElementById("nameField");
+let title = document.getElementById("title");
+
+signinBtn.onclick = function(){
+    nameField.style.maxHeight = "0";
+    title.innerHTML = "Sign In";
+    signupBtn.classList.add("disable");
+    signinBtn.classList.remove("disable");
+}
+
+signupBtn.onclick = function(){
+    nameField.style.maxHeight = "60px";
+    title.innerHTML = "Sign Up";
+    signupBtn.classList.remove("disable");
+    signinBtn.classList.add("disable");
+}
+
+</script> -->
+
+
+</body>
+</html>
+
